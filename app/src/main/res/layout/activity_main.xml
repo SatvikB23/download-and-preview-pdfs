@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Dept 1"
+        android:id="@+id/first_tv"
+        android:background="#7295A6"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Dept 2"
+        android:id="@+id/second_tv"
+        android:background="#617E8C"/>
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="Dept 3"
+        android:id="@+id/third_tv"
+        android:background="#7295A6"/>
+
+
+
+
+</LinearLayout>
